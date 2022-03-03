@@ -435,7 +435,7 @@ def emiko_about_callback(update, context):
         )
     elif query.data == "emiko_support":
         query.message.edit_text(
-            text="*✟ Emiko support chats*"
+            text="*✟ Kurapika support chats*"
             "\nJoin My Support Group/Channel for see or report a problem on Emiko.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
@@ -455,30 +455,30 @@ def emiko_about_callback(update, context):
 
     elif query.data == "emiko_credit":
         query.message.edit_text(
-            text=f"✟Credis for Kurapika\n"
-            "\nHere Developers Making And Give Inspiration For Made The KurapikaRobot",
+            text=f"✟ Hunter Committee Channels\n"
+            "\nHere are some channels featured by Hunter Committee",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="sena-ex", url="https://github.com/kennedy-ex"),
-                    InlineKeyboardButton(text="TheHamkerCat", url="https://github.com/TheHamkerCat"),
+                    InlineKeyboardButton(text="Wallpaper", url="https://t.me/Wallpaper_Committee"),
+                    InlineKeyboardButton(text="Gifs", url="https://t.me/Gifs_Committee"),
                  ],
                  [
-                    InlineKeyboardButton(text="Feri", url="https://github.com/FeriEXP"),
-                    InlineKeyboardButton(text="riz-ex", url="https://github.com/riz-ex"),
+                    InlineKeyboardButton(text="Anime", url="https://t.me/Anime_Committee"),
+                    InlineKeyboardButton(text="AMV", url="https://t.me/Amv_Committee"),
                  ],
                  [
-                    InlineKeyboardButton(text="Anime Kaizoku", url="https://github.com/animekaizoku"),
-                    InlineKeyboardButton(text="TheGhost Hunter", url="https://github.com/HuntingBots"),
+                    InlineKeyboardButton(text="Memes", url="https://t.me/Memes_Committee"),
+                    InlineKeyboardButton(text="Freak", url="https://t.me/TimesofFreak"),
                  ],
                  [
-                    InlineKeyboardButton(text="Inuka Asith", url="https://github.com/inukaasith"),
-                    InlineKeyboardButton(text="Noob-Kittu", url="https://github.com/noob-kittu"),
+                    InlineKeyboardButton(text="Nihilist", url="https://t.me/Nihilist_Gods"),
+                    InlineKeyboardButton(text="Music", url="https://t.me/Music_Committee"),
                  ],
                  [
-                    InlineKeyboardButton(text="Queen Arzoo", url="https://github.com/QueenArzoo"),
-                    InlineKeyboardButton(text="Paul Larsen", url="https://github.com/PaulSonOfLars"),
+                    InlineKeyboardButton(text="Committee", url="https://t.me/Hunter_Committee"),
+                    InlineKeyboardButton(text="Cosplay", url="https://t.me/Cosplay_Committee"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
